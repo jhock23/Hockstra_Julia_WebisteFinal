@@ -1,45 +1,69 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html>
     <head>
-        <title> Web Development Process </title>
-        <body>
-            <!--Card component-->
-            <h1>Web Development Process</h1>
-            <h2>Research</h2>
-            <p>In the web development process, the research phase creates a relationship with your client and institutes clear guidelines for your project defining cons
-                <h2>Planning</h2>
-                <p>The planning phase determines when and how the website will get built. Timelines and sitemaps will be decided. Software for project development will be selected, such as Ruby on Rails or Django for the backend, and React or Vue for the frontend.</p>
-                <h2>Design</h2>
-                <p>The Design phase presents process for small companies. In addition it communicates a graphical feel for multiple teams. User centric designs base layout and composition decisions to assist the needs of the decided upon target audience. Buttons Colors, and branding are added to visualize the final product for programmers, stakeholders, and clients.</p>
-                <h2>Content Creation</h2>
-                <p>With the user in mind, content is created with the appropriate tone of voice to fulfill the purpose of the project. Content not only attracts a certain audience, but it also improves SEO (Search Engine Optimization), using key words to rank higher on Google or Yahoo!</p>
-                <h2>Development</h2>
-                <p>Development is the most time consuming part of the web development cycle. Using the technology stack determined in the planning phase, the contractor/team begins to build the website or web application through code.</p>
-                <p>Based on the target user, the developer determines whether a mobile-first approach is the appropriate method. A mobile first approach means that programmers will develop for mobile devices first, and then they will develop for desktop and laptop computers.On the frontend, CSS and HTML are used to layout and style the web app to resemble the prototypes built in the Design phase. Through the use of HTML and CSS, a static website can be created. Javascript provides interactive experiences for the users. Frontend Frameworks such as React or Vue allow for dynamic loading and component based programming for better organization.</p>
-                <p>While frontend development focuses on what is seen by the user, the backend focuses on servers, databases, client-side functions and more.</p>
-                <h2>Testing Q&A</h2>
-                <p>To be sure that the product is ready for a client, a Quality Assurance developer sends the web application through a series of tests. Some of those might include Load Testing, Stress Testing, or Soak testing to find the websites limits in various circumstances.</p>
-                <h2>Maintenence</h2>
-                <p>Lastly, the web app is finally ready for deployment. The coded website is pushed to a server where anyone can view the product.
-
-                    Continuous feedback from users through A/B tests, surveys, or questionnaires require continuous maintenance. Once the web application is deployed it cannot be left alone. Be prepared for costs to maintain the product in the planning phase.
-                    
-                    Development cycles continue to happen (about every 3 weeks, depending on the company) with new features, bug fixes, or other changes addressing customer needs to keep consumers happy.
-                    
-                    Django is an example of a backend framework that is used to communicate with servers and databases.</p>
-                    <h2>Random List</h2>
-                    <ul>
-                        <li>Apples</li>
-                        <li>Oranges</li>
-                        <li>Bananas</li>
-                        <li>Pineapples</li>
-                    </ul>
-                    <ol>
-                        <li>Apples</li>
-                        <li>Oranges</li>
-                        <li>Bananas</li>
-                        <li>Pineapples</li>
-                    </ol>
-
+        <title>Kasama Email</title>
+        <link rel="stylesheet" href="Stylesheet/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+     $(document).ready(function() {
+    // First jQuery effect - animate the logo on hover
+    $(".header img").hover(function() {
+    $(this).animate({ width: "600px",height: "auto"}, 500);}, 
+    function() {
+    $(this).animate({ width: "500px", height: "auto"}, 500);
+    });
+    // Second jQuery effect - fade in the caption
+    $(".caption").hide().fadeIn(2000);});
+    </script>
     </head>
+    <body>
+</body>
 </html>
+
+</script>
+     </head>
+     <body>
+        <section class="greenline"></section> 
+        <section class="flexbox-row">
+            <header class="header">
+                <img src="images/kasama-logo.png" alt="logo" width="500px" height="auto" class="margin-top">
+                <ul class="item">
+                    <li><hr class="greyline">
+                        <p class="caption">1001N Winchester Ave<br>
+                                Chicago Illinois 60622</p>
+                        <hr class="greyline">
+                    </li>
+                    <li> Menu </li>
+                    <li> Hours </li>
+                    <li> Reservations </li>
+                    <li> Contact </li>
+                    <li> Our Story </li>
+                    <li> Join Our Team </li>
+                    <li> Email Sign Up </li>
+                </ul>
+            </header>
+            <div>
+                <img src="images/collage.png" alt="Owners" height="900px">
+            </div>
+        </section>
+        
+        <section class="greenline"></section>
+        <section class="center">
+            <div class="flex-container"></div>
+            <div class="bottom-caption"> A cozy, nostalgic fine dining Filipino inspired
+                bakery located in the East Ukrainian Village
+                Neighborhood of Chicago! 
+            </div>
+            <img src="images/building.jpg" alt="barista" width='1000px' height="autop" class="center">
+            <div class="flexbox-row">
+                <button class="link-buttons" onclick="window.location.href='https://www.instagram.com/kasamachicago/';">Instagram</button>
+                <button class="link-buttons" onclick="window.location.href='https://www.facebook.com/kasamachicago/';">Facebook</button>
+
+            </div>
+        </section>
+        <div class="flex-container-footer">
+            <p>Created 3/27 | Web Design | Julia Hockstra</p>
+        </div>
+        <section class="greenline"></div>
+    </body>
+    </html>
